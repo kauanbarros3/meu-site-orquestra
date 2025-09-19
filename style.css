@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: 1em auto;
+  background-color: white;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  font-family: 'Verdana', sans-serif;
+  color: #222;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.acessibilidade {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.acessibilidade button {
+  background-color: #000;
+  color: #fff;
+  margin-left: 5px;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.acessibilidade button:hover {
+  background-color: #444;
+}
+
+/* Alto contraste */
+body.alto-contraste {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body.alto-contraste header,
+body.alto-contraste footer {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+body.alto-contraste section {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+body.alto-contraste nav a {
+  color: yellow !important;
+}
